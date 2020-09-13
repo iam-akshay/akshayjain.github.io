@@ -24,7 +24,7 @@ body {
 
 .center_main_box {
     position: absolute;
-    padding: 50px 20px;
+    padding: 10px 20px 10px 20px;
     top: 50%;
     left: 50%;
     width: 25%;
@@ -127,6 +127,31 @@ body {
     50% {
         border-color: #0563bb;
     }
+}
+
+.social_media_icons {
+    font-size: medium;
+}
+
+.social_media_icons>a {
+    text-decoration: none;
+    padding: 1px;
+}
+
+.fa-youtube {
+    color: #E62117;
+}
+
+.fa-instagram {
+    color: #DD2A7B;
+}
+
+.fa-linkedin {
+    color: #0077B5;
+}
+
+.fa-stack-overflow {
+    color: #f48024;
 }
 
 
