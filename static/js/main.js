@@ -6,7 +6,7 @@ showSlides();
 
 function showSlides() {
     delay_time = 100
-    quality = ["Software Developer", "Web Designer", "Freelancer"]
+    quality = ["Software Developer", "Web Designer", "Python Developer", "Freelancer"]
     char += quality[curr_value][curr_index]
     $(".type_quality").text(char)
     curr_index += 1
