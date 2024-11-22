@@ -22,7 +22,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   return (
     <div
       className={`flex p-12 rounded-3xl ${
-        theme === 'dark' ? 'bg-black text-white' : 'bg-gray-100 text-black'
+        theme === 'dark' ? 'bg-darkgray text-white' : 'bg-gray-100 text-darkgray'
       }`}
     >
       <div className="w-1/4">
@@ -61,14 +61,14 @@ export const Projects: React.FC = () => {
       technologies: ['Layout', 'Sample', 'Content', 'Looking'],
       theme: 'light',
     },
-    {
-      duration: '2021 - 2024',
-      title: 'The standard chunk of Lorem Ipsum',
-      description:
-        "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
-      technologies: ['Layout', 'Sample', 'Content', 'Looking'],
-      theme: 'dark',
-    },
+    // {
+    //   duration: '2021 - 2024',
+    //   title: 'The standard chunk of Lorem Ipsum',
+    //   description:
+    //     "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+    //   technologies: ['Layout', 'Sample', 'Content', 'Looking'],
+    //   theme: 'dark',
+    // },
   ];
 
   return (
